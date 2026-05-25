@@ -1,0 +1,7091 @@
+[
+    {
+        "CODE": "AAD004",
+        "Numero": "LIHGFR0",
+        "Nom": "Diallo",
+        "Prenom": "Nourou",
+        "Date_de_naissance": "02/01/2012",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    14.0,
+                    15.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    12.0,
+                    13.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.833"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    14.0,
+                    13.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "9.167"
+            },
+            "SVT": {
+                "note_devoir": [
+                    15.0,
+                    19.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "12.333"
+            },
+            "HG": {
+                "note_devoir": [
+                    13.0,
+                    12.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.167"
+            }
+        }
+    },
+    {
+        "CODE": "AAD005",
+        "Numero": "40DKG6T",
+        "Nom": "Diallo",
+        "Prenom": "awa",
+        "Date_de_naissance": "21/10/2004",
+        "Classe": "6eme A",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    17.0,
+                    20.0,
+                    18.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "16.111"
+            },
+            "Math": {
+                "note_devoir": [
+                    15.0,
+                    16.15,
+                    13.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.239"
+            },
+            "Francais": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    14.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    13.0,
+                    11.0,
+                    15.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    15.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.667"
+            }
+        }
+    },
+    {
+        "CODE": "AAD005",
+        "Numero": "44DSW78",
+        "Nom": "Ndiaye",
+        "Prenom": "Sidy",
+        "Date_de_naissance": "19/01/2005",
+        "Classe": "4eme B",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    7.0,
+                    10.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "9.556"
+            },
+            "Math": {
+                "note_devoir": [
+                    11.0,
+                    10.0,
+                    12.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.333"
+            },
+            "Francais": {
+                "note_devoir": [
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    14.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    14.0,
+                    12.0,
+                    10.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    14.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.000"
+            }
+        }
+    },
+    {
+        "CODE": "AAD005",
+        "Numero": "20LH7BG",
+        "Nom": "FAYE",
+        "Prenom": "Fallou",
+        "Date_de_naissance": "19/04/2002",
+        "Classe": "4eme A",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    8.0,
+                    13.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.556"
+            },
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    10.1,
+                    11.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.122"
+            },
+            "Francais": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    15.0,
+                    10.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.500"
+            },
+            "HG": {
+                "note_devoir": [
+                    8.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "9.333"
+            }
+        }
+    },
+    {
+        "CODE": "AAD005",
+        "Numero": "8D805GT",
+        "Nom": "Diop",
+        "Prenom": "Seyni",
+        "Date_de_naissance": "29/09/2005",
+        "Classe": "3eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.5,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.750"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.000"
+            }
+        }
+    },
+    {
+        "CODE": "AAD005",
+        "Numero": "9HBW36T",
+        "Nom": "Ba",
+        "Prenom": "Aliou",
+        "Date_de_naissance": "01/01/2006",
+        "Classe": "5eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.167"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0,
+                    11.0,
+                    10.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.444"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    14.12,
+                    13.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.520"
+            },
+            "PC": {
+                "note_devoir": [
+                    15.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    10.0,
+                    17.0,
+                    13.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.333"
+            },
+            "HG": {
+                "note_devoir": [
+                    17.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "15.000"
+            }
+        }
+    },
+    {
+        "CODE": "AAD005",
+        "Numero": "W8NNJ6T",
+        "Nom": "Ndoye",
+        "Prenom": "Ousmane",
+        "Date_de_naissance": "09/04/2004",
+        "Classe": "5eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    20.0,
+                    18.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "18.333"
+            },
+            "Francais": {
+                "note_devoir": [
+                    12.0,
+                    14.0,
+                    14.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.111"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.16,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.527"
+            },
+            "PC": {
+                "note_devoir": [
+                    17.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "17.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    14.0,
+                    15.0,
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.333"
+            },
+            "HG": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "15.000"
+            }
+        }
+    },
+    {
+        "CODE": "AAD005",
+        "Numero": "23YLTXT",
+        "Nom": "Baal",
+        "Prenom": "Thierno",
+        "Date_de_naissance": "22/01/2006",
+        "Classe": "3eme A",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    13.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.667"
+            },
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    14.0,
+                    15.0
+                ],
+                "note_examen": "8",
+                "Moyenne": "9.889"
+            },
+            "Francais": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    12.0,
+                    10.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.444"
+            },
+            "HG": {
+                "note_devoir": [
+                    8.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "9.333"
+            }
+        }
+    },
+    {
+        "CODE": "AAD005",
+        "Numero": "48DKG8T",
+        "Nom": "Baal",
+        "Prenom": "Boubou",
+        "Date_de_naissance": "26/04/2003",
+        "Classe": "4eme B",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    17.0,
+                    11.0,
+                    8.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.333"
+            },
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.667"
+            },
+            "Francais": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    13.0,
+                    15.0,
+                    11.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "15.333"
+            }
+        }
+    },
+    {
+        "CODE": "AAD005",
+        "Numero": "Q7XVP6G",
+        "Nom": "Seck",
+        "Prenom": "Bineta",
+        "Date_de_naissance": "12/02/2005",
+        "Classe": "3eme A",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    14.0,
+                    8.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.333"
+            },
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.333"
+            },
+            "Francais": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "15.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    13.0,
+                    13.0,
+                    12.0
+                ],
+                "note_examen": "8",
+                "Moyenne": "9.556"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.333"
+            }
+        }
+    },
+    {
+        "CODE": "AAD005",
+        "Numero": "M67KQV7",
+        "Nom": "Correa",
+        "Prenom": "Albert",
+        "Date_de_naissance": "26/12/2003",
+        "Classe": "6eme A",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    11.0,
+                    10.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.000"
+            },
+            "Math": {
+                "note_devoir": [
+                    11.0,
+                    10.0,
+                    12.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.333"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "111",
+                "Moyenne": "78.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    12.0,
+                    8.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.333"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.333"
+            }
+        }
+    },
+    {
+        "CODE": "AAD007",
+        "Numero": "H18AC4W",
+        "Nom": "BA",
+        "Prenom": "Mouhamed",
+        "Date_de_naissance": "14/01/2005",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.5,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.750"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.000"
+            }
+        }
+    },
+    {
+        "CODE": "AAD007",
+        "Numero": "EPJHQQ5",
+        "Nom": "DIAW",
+        "Prenom": "Fallou",
+        "Date_de_naissance": "12/08/2006",
+        "Classe": "3eme B",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    14.0,
+                    12.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.8
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.267"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    9.0,
+                    16.0,
+                    13.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.000"
+            }
+        }
+    },
+    {
+        "CODE": "AAD007",
+        "Numero": "KM729R9",
+        "Nom": "NDIAYE",
+        "Prenom": "Marie",
+        "Date_de_naissance": "19/02/2007",
+        "Classe": "3eme A",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    4.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.167"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.8
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.600"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.333"
+            }
+        }
+    },
+    {
+        "CODE": "AAD007",
+        "Numero": "Q7U2XFP",
+        "Nom": "DEME",
+        "Prenom": "Abdou",
+        "Date_de_naissance": "16/01/2004",
+        "Classe": "4eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    14.5,
+                    11.0,
+                    13.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.708"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "Francais": {
+                "note_devoir": [
+                    4.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.167"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.5
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.500"
+            }
+        }
+    },
+    {
+        "CODE": "AAD007",
+        "Numero": "18G9C4L",
+        "Nom": "DIEYE",
+        "Prenom": "Abdoulaye",
+        "Date_de_naissance": "01/01/2002",
+        "Classe": "6eme B",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    4.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.167"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.8
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.600"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.333"
+            }
+        }
+    },
+    {
+        "CODE": "AAD007",
+        "Numero": "UQI7FN8",
+        "Nom": "Cyrille",
+        "Prenom": "Keys",
+        "Date_de_naissance": "07/11/2007",
+        "Classe": "4eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    9.0,
+                    10.5,
+                    11.0,
+                    13.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.292"
+            },
+            "PC": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "16.667"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.167"
+            },
+            "SVT": {
+                "note_devoir": [
+                    15.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.250"
+            },
+            "HG": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.12
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.373"
+            }
+        }
+    },
+    {
+        "CODE": "AAD007",
+        "Numero": "9H37AKZ",
+        "Nom": "LOW",
+        "Prenom": "Joakim",
+        "Date_de_naissance": "20/12/2002",
+        "Classe": "4eme A",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    14.0,
+                    12.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.8
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.267"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    9.0,
+                    16.0,
+                    13.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.000"
+            }
+        }
+    },
+    {
+        "CODE": "AAD007",
+        "Numero": "6691DTO",
+        "Nom": "Ndour",
+        "Prenom": "Karin",
+        "Date_de_naissance": "07/07/2003",
+        "Classe": "5eme B",
+        "Note": {
+            "SVT": {
+                "note_devoir": [
+                    15.0,
+                    11.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.111"
+            },
+            "HG": {
+                "note_devoir": [
+                    6.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "12.667"
+            },
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    14.9,
+                    11.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "15.322"
+            },
+            "Francais": {
+                "note_devoir": [
+                    8.0,
+                    13.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.167"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    18.5
+                ],
+                "note_examen": "15",
+                "Moyenne": "16.167"
+            },
+            "PC": {
+                "note_devoir": [
+                    7.0,
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.000"
+            }
+        }
+    },
+    {
+        "CODE": "AAD007",
+        "Numero": "8YM0304",
+        "Nom": "KIBINDA",
+        "Prenom": "Iniess",
+        "Date_de_naissance": "15/08/2005",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    7.0,
+                    9.0,
+                    8.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.5,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.250"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    11.0,
+                    16.0,
+                    8.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.917"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.000"
+            }
+        }
+    },
+    {
+        "CODE": "ABD009",
+        "Numero": "345ERTH",
+        "Nom": "Abdou",
+        "Prenom": "Wade",
+        "Date_de_naissance": "31/12/2007",
+        "Classe": "6eme D",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    4.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "12.667"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0,
+                    17.0,
+                    18.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.9,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.317"
+            },
+            "PC": {
+                "note_devoir": [
+                    0.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "7.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    20.0,
+                    16.0,
+                    10.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "10.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "9.667"
+            }
+        }
+    },
+    {
+        "CODE": "ABD009",
+        "Numero": "SDFTY34",
+        "Nom": "Senir",
+        "Prenom": "Mbol",
+        "Date_de_naissance": "24/02/2015",
+        "Classe": "4eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    1.0,
+                    5.0
+                ],
+                "note_examen": "8",
+                "Moyenne": "6.333"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0,
+                    9.0,
+                    18.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.778"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.9,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.317"
+            },
+            "PC": {
+                "note_devoir": [
+                    17.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "13.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    20.0,
+                    16.0,
+                    10.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "10.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    6.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "8.667"
+            }
+        }
+    },
+    {
+        "CODE": "ABD009",
+        "Numero": "ZRDFD4S",
+        "Nom": "Ndiareme",
+        "Prenom": "Sylla",
+        "Date_de_naissance": "03/09/2005",
+        "Classe": "3eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    1.0,
+                    4.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "10.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    0.0,
+                    19.0,
+                    8.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "9.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    2.19,
+                    1.0
+                ],
+                "note_examen": "5",
+                "Moyenne": "3.865"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    20.0,
+                    16.0,
+                    10.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "10.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    9.0
+                ],
+                "note_examen": "1",
+                "Moyenne": "3.667"
+            }
+        }
+    },
+    {
+        "CODE": "ABD009",
+        "Numero": "DFGE67T",
+        "Nom": "Mbor",
+        "Prenom": "Tounkho",
+        "Date_de_naissance": "17/10/2001",
+        "Classe": "5eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    4.0
+                ],
+                "note_examen": "5",
+                "Moyenne": "5.667"
+            },
+            "Francais": {
+                "note_devoir": [
+                    12.0,
+                    19.0,
+                    18.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "12.111"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.9,
+                    9.0
+                ],
+                "note_examen": "4",
+                "Moyenne": "5.983"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    10.0,
+                    8.0,
+                    10.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    9.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "14.333"
+            }
+        }
+    },
+    {
+        "CODE": "ABD009",
+        "Numero": "23453RD",
+        "Nom": "yéré",
+        "Prenom": "Niani",
+        "Date_de_naissance": "05/11/2012",
+        "Classe": "3eme D",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    18.0,
+                    4.0
+                ],
+                "note_examen": "8",
+                "Moyenne": "9.000"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0,
+                    9.0,
+                    18.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.111"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.9,
+                    9.0
+                ],
+                "note_examen": "3",
+                "Moyenne": "5.317"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    6.0,
+                    16.0,
+                    10.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.500"
+            },
+            "HG": {
+                "note_devoir": [
+                    19.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "13.000"
+            }
+        }
+    },
+    {
+        "CODE": "ABD009",
+        "Numero": "56GFSE6",
+        "Nom": "Awa",
+        "Prenom": "Samaké",
+        "Date_de_naissance": "30/09/2005",
+        "Classe": "5eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    1.0,
+                    4.0
+                ],
+                "note_examen": "7",
+                "Moyenne": "5.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    1.0,
+                    9.0,
+                    18.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "9.778"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.9,
+                    9.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.317"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    20.0,
+                    16.0,
+                    10.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "10.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "9.667"
+            }
+        }
+    },
+    {
+        "CODE": "ABN018",
+        "Numero": "LSNP1OC",
+        "Nom": "Moosky",
+        "Prenom": "Faye",
+        "Date_de_naissance": "23/04/1988",
+        "Classe": "4eme C",
+        "Note": {
+            "rançais": {
+                "note_devoir": [
+                    10.0,
+                    7.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "12.833"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    1.0,
+                    18.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "12.833"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    17.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.833"
+            },
+            "Science_Physique": {
+                "note_devoir": [
+                    18.0,
+                    12.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "13.000"
+            },
+            "Math": {
+                "note_devoir": [
+                    15.0,
+                    17.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "12.667"
+            }
+        }
+    },
+    {
+        "CODE": "ABN018",
+        "Numero": "PONAAM0",
+        "Nom": "Mayoro",
+        "Prenom": "Diop",
+        "Date_de_naissance": "14/05/2002",
+        "Classe": "6eme B",
+        "Note": {
+            "Français": {
+                "note_devoir": [
+                    12.0,
+                    8.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "14.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    19.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "17.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    18.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "17.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    18.0,
+                    13.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "Science_Physique": {
+                "note_devoir": [
+                    13.0,
+                    13.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.333"
+            },
+            "Math": {
+                "note_devoir": [
+                    15.0,
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.833"
+            }
+        }
+    },
+    {
+        "CODE": "AFD006",
+        "Numero": "2022HEC",
+        "Nom": "SYLLA",
+        "Prenom": "Gallas",
+        "Date_de_naissance": "02/03/2000",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    9.0,
+                    15.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "16.667"
+            },
+            "Français": {
+                "note_devoir": [
+                    10.0,
+                    12.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    18.0,
+                    14.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "18.000"
+            },
+            "PC": {
+                "note_devoir": [
+                    9.0,
+                    10.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.167"
+            },
+            "SVT": {
+                "note_devoir": [
+                    3.0,
+                    11.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "13.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.333"
+            }
+        }
+    },
+    {
+        "CODE": "AFD006",
+        "Numero": "2017ERT",
+        "Nom": "MANTANE",
+        "Prenom": "Elisabeth",
+        "Date_de_naissance": "03/04/1996",
+        "Classe": "4eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.5,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.750"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.000"
+            }
+        }
+    },
+    {
+        "CODE": "AFD006",
+        "Numero": "2019GHS",
+        "Nom": "BOISY",
+        "Prenom": "Chris",
+        "Date_de_naissance": "04/09/2001",
+        "Classe": "5eme C",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    13.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.667"
+            },
+            "PC": {
+                "note_devoir": [
+                    13.0,
+                    19.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.667"
+            },
+            "Francais": {
+                "note_devoir": [
+                    12.0,
+                    14.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    15.0,
+                    19.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0,
+                    18.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    11.0,
+                    12.0,
+                    11.0
+                ],
+                "note_examen": "20",
+                "Moyenne": "17.111"
+            }
+        }
+    },
+    {
+        "CODE": "AFD006",
+        "Numero": "2014TGR",
+        "Nom": "MENDY",
+        "Prenom": "Marcelin",
+        "Date_de_naissance": "12/11/1992",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "4.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "5.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            }
+        }
+    },
+    {
+        "CODE": "AFD006",
+        "Numero": "2020DFH",
+        "Nom": "NDIAYE",
+        "Prenom": "Fatah",
+        "Date_de_naissance": "23/08/2000",
+        "Classe": "4eme B",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    14.0,
+                    12.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.8
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.267"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    9.0,
+                    16.0,
+                    13.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.000"
+            }
+        }
+    },
+    {
+        "CODE": "AFD006",
+        "Numero": "2018JKH",
+        "Nom": "NDIAYE",
+        "Prenom": "Zeyna",
+        "Date_de_naissance": "23/06/1998",
+        "Classe": "4eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    13.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.667"
+            },
+            "PC": {
+                "note_devoir": [
+                    13.0,
+                    19.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.667"
+            },
+            "Francais": {
+                "note_devoir": [
+                    12.0,
+                    14.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    15.0,
+                    19.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0,
+                    18.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    11.0,
+                    12.0,
+                    11.0
+                ],
+                "note_examen": "20",
+                "Moyenne": "17.111"
+            }
+        }
+    },
+    {
+        "CODE": "AKH014",
+        "Numero": "2020UT6",
+        "Nom": "SIHARAJ",
+        "Prenom": "SORPHAKA",
+        "Date_de_naissance": "11/09/2002",
+        "Classe": "6eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    14.0,
+                    12.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.333"
+            },
+            "Francais": {
+                "note_devoir": [
+                    18.0,
+                    6.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    12.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    18.0,
+                    13.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "9.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    11.0,
+                    19.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "13.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    13.0,
+                    15.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.667"
+            }
+        }
+    },
+    {
+        "CODE": "AKH014",
+        "Numero": "2021IJ3",
+        "Nom": "LEFRANC",
+        "Prenom": "LYDIE",
+        "Date_de_naissance": "04/06/2001",
+        "Classe": "4eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "4.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "5.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            }
+        }
+    },
+    {
+        "CODE": "AKH014",
+        "Numero": "PO0023R",
+        "Nom": "DUPASQUIER",
+        "Prenom": "ERIC",
+        "Date_de_naissance": "02/09/1990",
+        "Classe": "3eme C",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    20.0,
+                    18.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "18.333"
+            },
+            "Francais": {
+                "note_devoir": [
+                    12.0,
+                    14.0,
+                    14.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.111"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.16,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.527"
+            },
+            "PC": {
+                "note_devoir": [
+                    17.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "17.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    14.0,
+                    15.0,
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.333"
+            },
+            "HG": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "15.000"
+            }
+        }
+    },
+    {
+        "CODE": "AKH014",
+        "Numero": "1992I0E",
+        "Nom": "MAHMOUD",
+        "Prenom": "ABDERRAHMAN",
+        "Date_de_naissance": "12/12/1999",
+        "Classe": "4eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.5,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.750"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.000"
+            }
+        }
+    },
+    {
+        "CODE": "AKH014",
+        "Numero": "20L6TRA",
+        "Nom": "MIMOUNI",
+        "Prenom": "MIMOUNI",
+        "Date_de_naissance": "12/07/1997",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "4.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "5.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            }
+        }
+    },
+    {
+        "CODE": "AKH014",
+        "Numero": "54FR342",
+        "Nom": "Kamou",
+        "Prenom": "LAYE",
+        "Date_de_naissance": "04/03/2020",
+        "Classe": "5eme C",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "4.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "5.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            }
+        }
+    },
+    {
+        "CODE": "AKH014",
+        "Numero": "8987BHT",
+        "Nom": "MBAYE",
+        "Prenom": "IBOU",
+        "Date_de_naissance": "03/01/2000",
+        "Classe": "3eme D",
+        "Note": {
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    18.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "15.667"
+            },
+            "PC": {
+                "note_devoir": [
+                    13.0,
+                    16.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "17.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    24.0,
+                    15.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "13.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    17.0,
+                    19.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "13.333"
+            },
+            "HG": {
+                "note_devoir": [
+                    0.0,
+                    7.0
+                ],
+                "note_examen": "02",
+                "Moyenne": "2.500"
+            },
+            "Math": {
+                "note_devoir": [
+                    11.0,
+                    13.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.333"
+            }
+        }
+    },
+    {
+        "CODE": "ALT020",
+        "Numero": "CIDIE01",
+        "Nom": "CISSE",
+        "Prenom": "Diégane",
+        "Date_de_naissance": "02/05/1932",
+        "Classe": "5eme A",
+        "Note": {
+            "MATH": {
+                "note_devoir": [
+                    15.0,
+                    17.0
+                ],
+                "note_examen": "20",
+                "Moyenne": "18.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    11.0,
+                    13.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.667"
+            },
+            "PC": {
+                "note_devoir": [
+                    15.0,
+                    12.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.500"
+            },
+            "ANGLAIS": {
+                "note_devoir": [
+                    5.0,
+                    12.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "12.833"
+            },
+            "FRANCAIS": {
+                "note_devoir": [
+                    6.0,
+                    11.0
+                ],
+                "note_examen": "09",
+                "Moyenne": "8.833"
+            },
+            "HG": {
+                "note_devoir": [
+                    1.0,
+                    15.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "14.667"
+            }
+        }
+    },
+    {
+        "CODE": "ALT020",
+        "Numero": "MN45LD5",
+        "Nom": "SENGHOR",
+        "Prenom": "Mbegane",
+        "Date_de_naissance": "12/05/1968",
+        "Classe": "4eme A",
+        "Note": {
+            "MATH": {
+                "note_devoir": [
+                    19.0,
+                    4.0
+                ],
+                "note_examen": "08",
+                "Moyenne": "9.167"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    5.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "13.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    7.0,
+                    13.0
+                ],
+                "note_examen": "09",
+                "Moyenne": "9.333"
+            },
+            "ANGLAIS": {
+                "note_devoir": [
+                    13.0,
+                    17.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.333"
+            },
+            "FRANCAIS": {
+                "note_devoir": [
+                    19.0,
+                    17.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "13.333"
+            },
+            "HG": {
+                "note_devoir": [
+                    15.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.333"
+            }
+        }
+    },
+    {
+        "CODE": "ALT020",
+        "Numero": "KF578FG",
+        "Nom": "MARA",
+        "Prenom": "Souma",
+        "Date_de_naissance": "17/11/1921",
+        "Classe": "3eme A",
+        "Note": {
+            "MATH": {
+                "note_devoir": [
+                    11.0,
+                    14.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    7.0,
+                    16.0
+                ],
+                "note_examen": "20",
+                "Moyenne": "17.167"
+            },
+            "PC": {
+                "note_devoir": [
+                    14.0,
+                    12.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "15.667"
+            },
+            "ANGLAIS": {
+                "note_devoir": [
+                    11.0,
+                    6.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "12.833"
+            },
+            "FRANCAIS": {
+                "note_devoir": [
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "09",
+                "Moyenne": "10.500"
+            },
+            "HG": {
+                "note_devoir": [
+                    8.0,
+                    16.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.667"
+            }
+        }
+    },
+    {
+        "CODE": "ALT020",
+        "Numero": "VF14HGZ",
+        "Nom": "TAMBEDOU",
+        "Prenom": "NiouKH",
+        "Date_de_naissance": "18/12/1999",
+        "Classe": "4eme B",
+        "Note": {
+            "MATH": {
+                "note_devoir": [
+                    10.0,
+                    12.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    5.0,
+                    7.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "9.333"
+            },
+            "PC": {
+                "note_devoir": [
+                    15.0,
+                    5.0
+                ],
+                "note_examen": "09",
+                "Moyenne": "9.333"
+            },
+            "ANGLAIS": {
+                "note_devoir": [
+                    11.0,
+                    16.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.500"
+            },
+            "FRANCAIS": {
+                "note_devoir": [
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "17.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0,
+                    10.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "15.500"
+            }
+        }
+    },
+    {
+        "CODE": "ALT020",
+        "Numero": "RTOP15K",
+        "Nom": "SARR",
+        "Prenom": "Mbissine",
+        "Date_de_naissance": "01/12/1996",
+        "Classe": "5eme B",
+        "Note": {
+            "MATH": {
+                "note_devoir": [
+                    16.0,
+                    16.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    13.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0,
+                    14.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "16.000"
+            },
+            "ANGLAIS": {
+                "note_devoir": [
+                    15.0,
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.833"
+            },
+            "FRANCAIS": {
+                "note_devoir": [
+                    11.0,
+                    11.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.333"
+            },
+            "HG": {
+                "note_devoir": [
+                    19.0,
+                    16.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "13.833"
+            }
+        }
+    },
+    {
+        "CODE": "ALT020",
+        "Numero": "HGKE145",
+        "Nom": "DEME",
+        "Prenom": "Ndew",
+        "Date_de_naissance": "15/02/1956",
+        "Classe": "6eme B",
+        "Note": {
+            "MATH": {
+                "note_devoir": [
+                    15.0,
+                    15.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "15.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    17.0,
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.167"
+            },
+            "PC": {
+                "note_devoir": [
+                    19.0,
+                    12.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "ANGLAIS": {
+                "note_devoir": [
+                    12.0,
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.000"
+            },
+            "FRANCAIS": {
+                "note_devoir": [
+                    16.0,
+                    13.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    13.0,
+                    12.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.500"
+            }
+        }
+    },
+    {
+        "CODE": "ALT020",
+        "Numero": "54BFH54",
+        "Nom": "KOITA",
+        "Prenom": "Fatou",
+        "Date_de_naissance": "15/11/1978",
+        "Classe": "4eme B",
+        "Note": {
+            "MATH": {
+                "note_devoir": [
+                    14.0,
+                    17.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "15.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    15.0,
+                    19.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "14.333"
+            },
+            "PC": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "17.833"
+            },
+            "ANGLAIS": {
+                "note_devoir": [
+                    13.0,
+                    19.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "16.000"
+            },
+            "FRANCAIS": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.833"
+            },
+            "HG": {
+                "note_devoir": [
+                    13.0,
+                    14.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.833"
+            }
+        }
+    },
+    {
+        "CODE": "ALT020",
+        "Numero": "DF85FUJ",
+        "Nom": "LABOU",
+        "Prenom": "Pon",
+        "Date_de_naissance": "17/06/2002",
+        "Classe": "5eme A",
+        "Note": {
+            "MATH": {
+                "note_devoir": [
+                    15.0,
+                    17.0
+                ],
+                "note_examen": "20",
+                "Moyenne": "18.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    11.0,
+                    9.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.000"
+            },
+            "PC": {
+                "note_devoir": [
+                    18.0,
+                    17.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "9.167"
+            },
+            "ANGLAIS": {
+                "note_devoir": [
+                    15.0,
+                    12.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.500"
+            },
+            "FRANCAIS": {
+                "note_devoir": [
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "17.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0,
+                    15.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "16.333"
+            }
+        }
+    },
+    {
+        "CODE": "AMD013",
+        "Numero": "E7812Z3",
+        "Nom": "DIOP",
+        "Prenom": "ALY",
+        "Date_de_naissance": "12/04/1998",
+        "Classe": "5eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    14.0,
+                    12.0,
+                    10.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "PC": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    12.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.0,
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.167"
+            }
+        }
+    },
+    {
+        "CODE": "AMD013",
+        "Numero": "Z781263",
+        "Nom": "FAYE",
+        "Prenom": "FATOU",
+        "Date_de_naissance": "12/04/1997",
+        "Classe": "6eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    13.0,
+                    12.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.833"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0,
+                    9.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "15.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    4.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "8.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    19.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "9.833"
+            },
+            "HG": {
+                "note_devoir": [
+                    12.0,
+                    10.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    3.0,
+                    13.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "12.667"
+            }
+        }
+    },
+    {
+        "CODE": "AMD013",
+        "Numero": "Z7812Z3",
+        "Nom": "DIOUF",
+        "Prenom": "MALICK",
+        "Date_de_naissance": "01/01/1900",
+        "Classe": "4eme B",
+        "Note": {
+            "HG": {
+                "note_devoir": [
+                    11.0,
+                    15.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "16.333"
+            },
+            "PC": {
+                "note_devoir": [
+                    15.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "17.000"
+            },
+            "Francais": {
+                "note_devoir": [
+                    12.0,
+                    13.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.500"
+            },
+            "SVT": {
+                "note_devoir": [
+                    13.0,
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.500"
+            },
+            "Math": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    11.0,
+                    14.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.833"
+            }
+        }
+    },
+    {
+        "CODE": "AMD013",
+        "Numero": "Z7812Z5",
+        "Nom": "DIOUM",
+        "Prenom": "ALIOUNE",
+        "Date_de_naissance": "12/12/2011",
+        "Classe": "3eme B",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    4.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.167"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.8
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.600"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.333"
+            }
+        }
+    },
+    {
+        "CODE": "AMD013",
+        "Numero": "Z7812Z9",
+        "Nom": "NDIAYE",
+        "Prenom": "MOUSSA",
+        "Date_de_naissance": "12/03/1999",
+        "Classe": "3eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    7.0,
+                    9.0,
+                    8.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.5,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.250"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    11.0,
+                    16.0,
+                    8.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.917"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.000"
+            }
+        }
+    },
+    {
+        "CODE": "AMD013",
+        "Numero": "Z7852Z3",
+        "Nom": "FALL",
+        "Prenom": "MOUSTAPHA",
+        "Date_de_naissance": "09/09/2012",
+        "Classe": "6eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    7.0,
+                    9.0,
+                    8.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.5,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.250"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    11.0,
+                    16.0,
+                    8.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.917"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.000"
+            }
+        }
+    },
+    {
+        "CODE": "AMD013",
+        "Numero": "Z7812Z7",
+        "Nom": "MBAYE",
+        "Prenom": "IDRISSA",
+        "Date_de_naissance": "15/05/2011",
+        "Classe": "4eme A",
+        "Note": {
+            "SVT": {
+                "note_devoir": [
+                    15.0,
+                    11.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.111"
+            },
+            "HG": {
+                "note_devoir": [
+                    6.0,
+                    14.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.000"
+            },
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    12.19,
+                    11.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.354"
+            },
+            "Francais": {
+                "note_devoir": [
+                    18.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.833"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    8.15
+                ],
+                "note_examen": "15",
+                "Moyenne": "12.717"
+            },
+            "PC": {
+                "note_devoir": [
+                    7.0,
+                    11.0,
+                    9.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.000"
+            }
+        }
+    },
+    {
+        "CODE": "AMD013",
+        "Numero": "Z7312Z3",
+        "Nom": "TINE",
+        "Prenom": "SEYDOU",
+        "Date_de_naissance": "03/09/2000",
+        "Classe": "5eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.5,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.750"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.000"
+            }
+        }
+    },
+    {
+        "CODE": "AMD013",
+        "Numero": "Z7832Z3",
+        "Nom": "SANE",
+        "Prenom": "MOUSSA",
+        "Date_de_naissance": "29/12/2001",
+        "Classe": "5eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    11.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.667"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.667"
+            },
+            "ANGLAIS": {
+                "note_devoir": [
+                    10.0,
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    11.0,
+                    1.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "11.333"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0,
+                    13.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.333"
+            },
+            "Francais": {
+                "note_devoir": [
+                    11.0,
+                    15.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.333"
+            }
+        }
+    },
+    {
+        "CODE": "AMD013",
+        "Numero": "Z8812Z3",
+        "Nom": "TOURE",
+        "Prenom": "OUMAR",
+        "Date_de_naissance": "29/11/2001",
+        "Classe": "5eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    9.0,
+                    10.5,
+                    10.0,
+                    13.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.542"
+            },
+            "PC": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "16.667"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.167"
+            },
+            "SVT": {
+                "note_devoir": [
+                    15.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.250"
+            },
+            "HG": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    11.12
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.707"
+            }
+        }
+    },
+    {
+        "CODE": "AMG015",
+        "Numero": "SONA001",
+        "Nom": "FAYE",
+        "Prenom": "FATOU",
+        "Date_de_naissance": "12/04/1993",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "4.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "5.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            }
+        }
+    },
+    {
+        "CODE": "AMG015",
+        "Numero": "SONA002",
+        "Nom": "GAYE",
+        "Prenom": "THIERNO",
+        "Date_de_naissance": "14/02/1992",
+        "Classe": "6eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "4.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "5.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            }
+        }
+    },
+    {
+        "CODE": "AMG015",
+        "Numero": "SONA003",
+        "Nom": "DIOP",
+        "Prenom": "YOUSSOU",
+        "Date_de_naissance": "12/06/1994",
+        "Classe": "5eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "4.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "5.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            }
+        }
+    },
+    {
+        "CODE": "AMG015",
+        "Numero": "SONA004",
+        "Nom": "WAGNE",
+        "Prenom": "PETIT",
+        "Date_de_naissance": "12/07/1995",
+        "Classe": "5eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "4.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "5.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            }
+        }
+    },
+    {
+        "CODE": "AMG015",
+        "Numero": "SONA005",
+        "Nom": "CISSE",
+        "Prenom": "GALAYE",
+        "Date_de_naissance": "04/03/1995",
+        "Classe": "4eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "4.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "5.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            }
+        }
+    },
+    {
+        "CODE": "AMG015",
+        "Numero": "SONA006",
+        "Nom": "GOMIS",
+        "Prenom": "PATA",
+        "Date_de_naissance": "01/06/1997",
+        "Classe": "4eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "4.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "5.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            }
+        }
+    },
+    {
+        "CODE": "AMG015",
+        "Numero": "SONA007",
+        "Nom": "SANE",
+        "Prenom": "BALLA",
+        "Date_de_naissance": "09/09/1999",
+        "Classe": "3eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "4.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "5.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            }
+        }
+    },
+    {
+        "CODE": "AMG015",
+        "Numero": "SONA008",
+        "Nom": "SAGNA",
+        "Prenom": "SADIO",
+        "Date_de_naissance": "06/06/1999",
+        "Classe": "3eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "4.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "5.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            }
+        }
+    },
+    {
+        "CODE": "AMG015",
+        "Numero": "SONA009",
+        "Nom": "NIANG",
+        "Prenom": "MAREME",
+        "Date_de_naissance": "12/12/1996",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "05",
+                "Moyenne": "4.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    4.0,
+                    3.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "5.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.500"
+            }
+        }
+    },
+    {
+        "CODE": "AMK016",
+        "Numero": "A7723ML",
+        "Nom": "Kane",
+        "Prenom": "Moussa",
+        "Date_de_naissance": "29/12/2001",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    14.0,
+                    12.0,
+                    10.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "PC": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    12.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.0,
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.167"
+            }
+        }
+    },
+    {
+        "CODE": "AMK016",
+        "Numero": "Z7812Z3",
+        "Nom": "Konimba",
+        "Prenom": "Mousona",
+        "Date_de_naissance": "12/12/2009",
+        "Classe": "3eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    10.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "16.333"
+            },
+            "PC": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "Francais": {
+                "note_devoir": [
+                    14.0,
+                    15.0,
+                    12.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "17.222"
+            },
+            "SVT": {
+                "note_devoir": [
+                    16.0,
+                    18.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "17.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    18.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "15.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    18.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "13.333"
+            }
+        }
+    },
+    {
+        "CODE": "AMK016",
+        "Numero": "M770231",
+        "Nom": "Ilimani",
+        "Prenom": "Mustapha",
+        "Date_de_naissance": "12/04/1997",
+        "Classe": "3eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    12.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.667"
+            },
+            "PC": {
+                "note_devoir": [
+                    13.0,
+                    19.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "12.000"
+            },
+            "Francais": {
+                "note_devoir": [
+                    19.0,
+                    12.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.833"
+            },
+            "SVT": {
+                "note_devoir": [
+                    11.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "15.833"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0,
+                    13.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "16.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    11.0,
+                    19.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "17.000"
+            }
+        }
+    },
+    {
+        "CODE": "AMK016",
+        "Numero": "K771427",
+        "Nom": "Sy",
+        "Prenom": "Malick",
+        "Date_de_naissance": "01/01/1900",
+        "Classe": "6eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    14.0,
+                    11.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "16.778"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.167"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "17.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.0,
+                    17.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "15.833"
+            }
+        }
+    },
+    {
+        "CODE": "AMK016",
+        "Numero": "JH23GH3",
+        "Nom": "Loum",
+        "Prenom": "Mamadou",
+        "Date_de_naissance": "12/12/2011",
+        "Classe": "3eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    13.0,
+                    12.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.833"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0,
+                    9.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "15.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    4.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "8.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    19.0
+                ],
+                "note_examen": "07",
+                "Moyenne": "9.833"
+            },
+            "HG": {
+                "note_devoir": [
+                    12.0,
+                    10.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    3.0,
+                    13.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "12.667"
+            }
+        }
+    },
+    {
+        "CODE": "AMK016",
+        "Numero": "SX34AZ2",
+        "Nom": "Gaye",
+        "Prenom": "Souleyni",
+        "Date_de_naissance": "12/03/1999",
+        "Classe": "6eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    19.0,
+                    10.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.000"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "9.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    16.0,
+                    10.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "15.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    2.0,
+                    16.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.500"
+            }
+        }
+    },
+    {
+        "CODE": "AMK016",
+        "Numero": "E9D45JJ",
+        "Nom": "Hann",
+        "Prenom": "Cheikh",
+        "Date_de_naissance": "09/09/2012",
+        "Classe": "3eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    13.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.667"
+            },
+            "PC": {
+                "note_devoir": [
+                    13.0,
+                    19.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.667"
+            },
+            "Francais": {
+                "note_devoir": [
+                    12.0,
+                    14.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    15.0,
+                    19.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0,
+                    18.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    11.0,
+                    12.0,
+                    11.0
+                ],
+                "note_examen": "20",
+                "Moyenne": "17.111"
+            }
+        }
+    },
+    {
+        "CODE": "AMK016",
+        "Numero": "HIE938J",
+        "Nom": "Kane",
+        "Prenom": "Aliou",
+        "Date_de_naissance": "15/05/2011",
+        "Classe": "6eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    20.0,
+                    20.0,
+                    20.0
+                ],
+                "note_examen": "20",
+                "Moyenne": "20.000"
+            },
+            "PC": {
+                "note_devoir": [
+                    20.0,
+                    20.0
+                ],
+                "note_examen": "20",
+                "Moyenne": "20.000"
+            },
+            "Francais": {
+                "note_devoir": [
+                    14.0,
+                    12.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    19.0,
+                    19.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "19.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    7.0,
+                    1.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "8.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    6.0,
+                    13.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.833"
+            }
+        }
+    },
+    {
+        "CODE": "AMK016",
+        "Numero": "23JHNB2",
+        "Nom": "Ngimbona",
+        "Prenom": "Charles",
+        "Date_de_naissance": "03/09/2000",
+        "Classe": "3eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    11.0,
+                    10.0,
+                    9.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.667"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0,
+                    11.0,
+                    9.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.778"
+            },
+            "Francais": {
+                "note_devoir": [
+                    18.0,
+                    19.0,
+                    19.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "17.556"
+            },
+            "SVT": {
+                "note_devoir": [
+                    1.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "7.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    19.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "19.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    19.0,
+                    17.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "18.667"
+            }
+        }
+    },
+    {
+        "CODE": "AMK016",
+        "Numero": "HJ293D4",
+        "Nom": "Ikouna",
+        "Prenom": "Mbalanga",
+        "Date_de_naissance": "01/01/2001",
+        "Classe": "3eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    13.0,
+                    12.0,
+                    10.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.889"
+            },
+            "PC": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    12.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.0,
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.167"
+            }
+        }
+    },
+    {
+        "CODE": "AOD010",
+        "Numero": "XSDEF12",
+        "Nom": "gueye",
+        "Prenom": "fatou",
+        "Date_de_naissance": "03/04/2005",
+        "Classe": "4eme B",
+        "Note": {
+            "HG": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    10.0
+                ],
+                "note_examen": "8",
+                "Moyenne": "9.000"
+            },
+            "Francais": {
+                "note_devoir": [
+                    14.0,
+                    11.0
+                ],
+                "note_examen": "4",
+                "Moyenne": "6.833"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0,
+                    4.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "8.333"
+            },
+            "Math": {
+                "note_devoir": [
+                    18.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "18.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    4.0,
+                    8.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "12.667"
+            }
+        }
+    },
+    {
+        "CODE": "AOD010",
+        "Numero": "DEGLAC4",
+        "Nom": "fall",
+        "Prenom": "saly",
+        "Date_de_naissance": "06/12/2007",
+        "Classe": "6eme B",
+        "Note": {
+            "HG": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    14.0,
+                    13.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "16.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    11.0,
+                    12.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.167"
+            },
+            "PC": {
+                "note_devoir": [
+                    12.0,
+                    14.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.000"
+            },
+            "Math": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    14.0,
+                    18.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "17.333"
+            }
+        }
+    },
+    {
+        "CODE": "AOD010",
+        "Numero": "DZFXML5",
+        "Nom": "Lo",
+        "Prenom": "amy",
+        "Date_de_naissance": "08/03/2003",
+        "Classe": "3eme A",
+        "Note": {
+            "HG": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    14.0,
+                    13.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "16.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    11.0,
+                    12.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.167"
+            },
+            "PC": {
+                "note_devoir": [
+                    12.0,
+                    14.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.000"
+            },
+            "Math": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    14.0,
+                    18.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "17.333"
+            }
+        }
+    },
+    {
+        "CODE": "AOD010",
+        "Numero": "DZLSWQ7",
+        "Nom": "sambe",
+        "Prenom": "salif",
+        "Date_de_naissance": "18/03/2004",
+        "Classe": "3eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    14.0,
+                    10.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "PC": {
+                "note_devoir": [
+                    14.0,
+                    19.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "13.500"
+            },
+            "ANGLAIS": {
+                "note_devoir": [
+                    10.0,
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    15.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    12.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.000"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    14.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "16.833"
+            }
+        }
+    },
+    {
+        "CODE": "AOD010",
+        "Numero": "JHDHRE8",
+        "Nom": "sene",
+        "Prenom": "jeannette",
+        "Date_de_naissance": "20/12/2007",
+        "Classe": "6eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    11.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.667"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.667"
+            },
+            "ANGLAIS": {
+                "note_devoir": [
+                    10.0,
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    11.0,
+                    1.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "11.333"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0,
+                    13.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.333"
+            },
+            "Francais": {
+                "note_devoir": [
+                    11.0,
+                    15.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.333"
+            }
+        }
+    },
+    {
+        "CODE": "AOD010",
+        "Numero": "LSXNEB0",
+        "Nom": "gueye",
+        "Prenom": "modou",
+        "Date_de_naissance": "03/01/2002",
+        "Classe": "3eme B",
+        "Note": {
+            "SVT": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.333"
+            },
+            "PC": {
+                "note_devoir": [
+                    19.0
+                ],
+                "note_examen": "20",
+                "Moyenne": "19.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    5.0,
+                    9.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "8.333"
+            },
+            "Math": {
+                "note_devoir": [
+                    18.0,
+                    16.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "17.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.667"
+            },
+            "Francais": {
+                "note_devoir": [
+                    13.12
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.040"
+            }
+        }
+    },
+    {
+        "CODE": "ASK017",
+        "Numero": "OKYLDC8",
+        "Nom": "KANE",
+        "Prenom": "Ousmane",
+        "Date_de_naissance": "07/12/2007",
+        "Classe": "4eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    9.0,
+                    10.0
+                ],
+                "note_examen": "08",
+                "Moyenne": "8.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    6.0,
+                    10.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "9.333"
+            },
+            "Français": {
+                "note_devoir": [
+                    15.0,
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.833"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    17.0,
+                    16.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "18.167"
+            }
+        }
+    },
+    {
+        "CODE": "ASK017",
+        "Numero": "DKBLMT7",
+        "Nom": "KONATE",
+        "Prenom": "Djiby",
+        "Date_de_naissance": "09/06/2010",
+        "Classe": "6eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    17.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.667"
+            },
+            "HG": {
+                "note_devoir": [
+                    15.0,
+                    10.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.500"
+            },
+            "SVT": {
+                "note_devoir": [
+                    14.0,
+                    15.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.833"
+            },
+            "Français": {
+                "note_devoir": [
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    19.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "17.667"
+            }
+        }
+    },
+    {
+        "CODE": "ASK017",
+        "Numero": "CMGBDK9",
+        "Nom": "MENDY",
+        "Prenom": "Christelle",
+        "Date_de_naissance": "11/10/2006",
+        "Classe": "3eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    14.0,
+                    18.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "16.000"
+            },
+            "PC": {
+                "note_devoir": [
+                    17.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "16.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    15.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "17.667"
+            },
+            "Français": {
+                "note_devoir": [
+                    11.0,
+                    9.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    8.0,
+                    5.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "10.167"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.333"
+            }
+        }
+    },
+    {
+        "CODE": "ASK017",
+        "Numero": "YOSADK1",
+        "Nom": "OUEDRAOGO",
+        "Prenom": "Yankoba",
+        "Date_de_naissance": "15/02/2009",
+        "Classe": "5eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    11.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    13.0,
+                    10.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.833"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "15.333"
+            },
+            "Français": {
+                "note_devoir": [
+                    18.0,
+                    14.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "16.000"
+            }
+        }
+    },
+    {
+        "CODE": "ASK017",
+        "Numero": "SFSADK2",
+        "Nom": "FALL",
+        "Prenom": "Salimata",
+        "Date_de_naissance": "02/08/2010",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "09",
+                "Moyenne": "10.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    16.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.333"
+            },
+            "HG": {
+                "note_devoir": [
+                    17.0,
+                    14.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.167"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    18.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "17.333"
+            },
+            "Français": {
+                "note_devoir": [
+                    18.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.833"
+            }
+        }
+    },
+    {
+        "CODE": "ASK017",
+        "Numero": "MDMTDK9",
+        "Nom": "DIOP",
+        "Prenom": "Mamy",
+        "Date_de_naissance": "25/09/2005",
+        "Classe": "3eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    9.0,
+                    11.0,
+                    13.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.000"
+            },
+            "PC": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    15.0,
+                    14.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.667"
+            },
+            "Français": {
+                "note_devoir": [
+                    11.0,
+                    13.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.333"
+            }
+        }
+    },
+    {
+        "CODE": "ASK017",
+        "Numero": "MTBFCA2",
+        "Nom": "TAPSOBA",
+        "Prenom": "Mounkoudy",
+        "Date_de_naissance": "08/12/2008",
+        "Classe": "4eme B",
+        "Note": {
+            "Anglais": {
+                "note_devoir": [
+                    12.0,
+                    8.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.000"
+            },
+            "Math": {
+                "note_devoir": [
+                    15.0,
+                    18.0
+                ],
+                "note_examen": "20",
+                "Moyenne": "18.833"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0,
+                    17.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "15.167"
+            },
+            "SVT": {
+                "note_devoir": [
+                    19.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "17.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0,
+                    14.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.833"
+            },
+            "Français": {
+                "note_devoir": [
+                    6.0,
+                    9.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "9.833"
+            }
+        }
+    },
+    {
+        "CODE": "ASK017",
+        "Numero": "DDPADK7",
+        "Nom": "DIA",
+        "Prenom": "Dieynaba",
+        "Date_de_naissance": "01/05/2008",
+        "Classe": "4eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    10.0
+                ],
+                "note_examen": "09",
+                "Moyenne": "9.333"
+            },
+            "PC": {
+                "note_devoir": [
+                    12.0,
+                    10.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    5.0,
+                    10.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.167"
+            },
+            "Français": {
+                "note_devoir": [
+                    12.0,
+                    16.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "14.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    14.0,
+                    16.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "17.667"
+            }
+        }
+    },
+    {
+        "CODE": "ASK017",
+        "Numero": "ADBMML5",
+        "Nom": "DIOGOSOUMA",
+        "Prenom": "Aliou",
+        "Date_de_naissance": "03/10/2009",
+        "Classe": "5eme B",
+        "Note": {
+            "Français": {
+                "note_devoir": [
+                    15.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "13.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    16.0,
+                    10.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "15.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "16.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    17.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.667"
+            },
+            "Math": {
+                "note_devoir": [
+                    15.0,
+                    13.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "16.667"
+            }
+        }
+    },
+    {
+        "CODE": "ASK017",
+        "Numero": "ABHLMY1",
+        "Nom": "BAOBEY",
+        "Prenom": "Angelline",
+        "Date_de_naissance": "18/03/2006",
+        "Classe": "3eme A",
+        "Note": {
+            "SVT": {
+                "note_devoir": [
+                    16.0,
+                    10.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "15.667"
+            },
+            "Math": {
+                "note_devoir": [
+                    18.0,
+                    15.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "18.167"
+            },
+            "PC": {
+                "note_devoir": [
+                    17.0,
+                    12.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "16.167"
+            },
+            "Français": {
+                "note_devoir": [
+                    15.0,
+                    13.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "15.333"
+            },
+            "HG": {
+                "note_devoir": [
+                    12.0,
+                    10.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    14.0,
+                    18.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.333"
+            }
+        }
+    },
+    {
+        "CODE": "BAD008",
+        "Numero": "AF32IBC",
+        "Nom": "FALL",
+        "Prenom": "OUSSEYOU",
+        "Date_de_naissance": "03/07/2000",
+        "Classe": "3eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    13.0,
+                    15.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "15.333"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0,
+                    14.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    15.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.333"
+            },
+            "PC": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    14.0,
+                    9.0,
+                    12.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.556"
+            },
+            "HG": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.333"
+            }
+        }
+    },
+    {
+        "CODE": "BAD008",
+        "Numero": "M60GRTL",
+        "Nom": "TINE",
+        "Prenom": "SOKHNA",
+        "Date_de_naissance": "25/02/2005",
+        "Classe": "4eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    8.0,
+                    13.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.167"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0,
+                    10.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.0,
+                    11.0,
+                    9.0
+                ],
+                "note_examen": "7",
+                "Moyenne": "8.000"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "8",
+                "Moyenne": "8.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    11.0,
+                    9.0,
+                    10.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.667"
+            }
+        }
+    },
+    {
+        "CODE": "BAD008",
+        "Numero": "QNXKW09",
+        "Nom": "SINE",
+        "Prenom": "MARIEME",
+        "Date_de_naissance": "29/08/2008",
+        "Classe": "5eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    8.0,
+                    12.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.333"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    10.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "10.167"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    12.0
+                ],
+                "note_examen": "7",
+                "Moyenne": "8.333"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    8.0,
+                    11.0,
+                    10.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.222"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.667"
+            }
+        }
+    },
+    {
+        "CODE": "BAD008",
+        "Numero": "G2NXW1L",
+        "Nom": "DIOUF",
+        "Prenom": "MOUSTAPHA",
+        "Date_de_naissance": "05/07/2001",
+        "Classe": "4eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    14.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0,
+                    12.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    9.0,
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.500"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    13.0,
+                    12.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    15.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.667"
+            }
+        }
+    },
+    {
+        "CODE": "BAD008",
+        "Numero": "UPNCG78",
+        "Nom": "KA",
+        "Prenom": "ALIOU",
+        "Date_de_naissance": "10/05/2009",
+        "Classe": "3eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    9.0,
+                    10.5,
+                    10.0,
+                    13.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.542"
+            },
+            "PC": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "16.667"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.167"
+            },
+            "SVT": {
+                "note_devoir": [
+                    15.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.250"
+            },
+            "HG": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    11.12
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.707"
+            }
+        }
+    },
+    {
+        "CODE": "BAD008",
+        "Numero": "WYI96BT",
+        "Nom": "BA",
+        "Prenom": "MOUSSA",
+        "Date_de_naissance": "05/11/2010",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    12.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.667"
+            },
+            "Francais": {
+                "note_devoir": [
+                    17.0,
+                    9.0,
+                    8.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.111"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.0,
+                    7.0,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "12.889"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    11.0,
+                    16.0,
+                    8.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.917"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.000"
+            }
+        }
+    },
+    {
+        "CODE": "BAD008",
+        "Numero": "WYI96BT",
+        "Nom": "DIALLO",
+        "Prenom": "SEYNABOU",
+        "Date_de_naissance": "16/02/2003",
+        "Classe": "5eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    8.0,
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.167"
+            },
+            "Francais": {
+                "note_devoir": [
+                    12.0,
+                    14.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.833"
+            },
+            "PC": {
+                "note_devoir": [
+                    16.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "13.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    14.0,
+                    9.0,
+                    11.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.111"
+            },
+            "HG": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.333"
+            }
+        }
+    },
+    {
+        "CODE": "BAD008",
+        "Numero": "FRTX54U",
+        "Nom": "NDIAYE",
+        "Prenom": "FATOU",
+        "Date_de_naissance": "22/07/2005",
+        "Classe": "4eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    7.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "9.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    13.0,
+                    14.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "10.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    9.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.333"
+            },
+            "PC": {
+                "note_devoir": [
+                    15.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "13.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    11.0,
+                    10.0,
+                    12.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.333"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "12.667"
+            }
+        }
+    },
+    {
+        "CODE": "BAD008",
+        "Numero": "LJQC67L",
+        "Nom": "WADE",
+        "Prenom": "ASTOU",
+        "Date_de_naissance": "12/12/2007",
+        "Classe": "3eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    13.0,
+                    15.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "15.333"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0,
+                    14.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    19.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.778"
+            },
+            "PC": {
+                "note_devoir": [
+                    13.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.000"
+            },
+            "SVT": {
+                "note_devoir": [
+                    14.0,
+                    9.0,
+                    12.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.556"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.667"
+            }
+        }
+    },
+    {
+        "CODE": "BAD008",
+        "Numero": "KFPB32H",
+        "Nom": "SY",
+        "Prenom": "ADJA",
+        "Date_de_naissance": "02/08/2002",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    7.0,
+                    9.0,
+                    8.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.5,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.250"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    11.0,
+                    16.0,
+                    8.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.917"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.000"
+            }
+        }
+    },
+    {
+        "CODE": "BAF013",
+        "Numero": "GH43RTU",
+        "Nom": "Ndao",
+        "Prenom": "Aram",
+        "Date_de_naissance": "16/02/2000",
+        "Classe": "3eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.5,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.750"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.000"
+            }
+        }
+    },
+    {
+        "CODE": "BAF013",
+        "Numero": "PLM56DS",
+        "Nom": "Gomis",
+        "Prenom": "Pipo",
+        "Date_de_naissance": "16/03/1998",
+        "Classe": "4eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    8.0,
+                    7.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "9.167"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.15,
+                    19.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.358"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    2.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "15.333"
+            }
+        }
+    },
+    {
+        "CODE": "BAF013",
+        "Numero": "GF34KHS",
+        "Nom": "Diouf",
+        "Prenom": "Ousseynou",
+        "Date_de_naissance": "03/12/1992",
+        "Classe": "5eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    18.0,
+                    17.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "12.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    5.0,
+                    13.0,
+                    9.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "12.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.5,
+                    10.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.083"
+            },
+            "PC": {
+                "note_devoir": [
+                    17.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "11.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    19.0,
+                    15.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.750"
+            },
+            "HG": {
+                "note_devoir": [
+                    16.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "17.333"
+            }
+        }
+    },
+    {
+        "CODE": "BAF013",
+        "Numero": "JHGF7F5",
+        "Nom": "Diop",
+        "Prenom": "Elimane",
+        "Date_de_naissance": "12/01/2003",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    9.0,
+                    17.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.000"
+            },
+            "Francais": {
+                "note_devoir": [
+                    12.0,
+                    13.0,
+                    8.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "15.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    3.5,
+                    10.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "12.250"
+            },
+            "PC": {
+                "note_devoir": [
+                    17.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "18.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    19.0,
+                    16.0,
+                    13.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "13.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    14.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "16.667"
+            }
+        }
+    },
+    {
+        "CODE": "BAF013",
+        "Numero": "RED76BH",
+        "Nom": "Cissé",
+        "Prenom": "Babacar",
+        "Date_de_naissance": "03/06/2005",
+        "Classe": "3eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    8.0,
+                    7.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "9.167"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.15,
+                    19.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.358"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    2.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "15.333"
+            }
+        }
+    },
+    {
+        "CODE": "BAF013",
+        "Numero": "GF69LBC",
+        "Nom": "Ba",
+        "Prenom": "Abdoulaye",
+        "Date_de_naissance": "09/02/1992",
+        "Classe": "3eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    18.0,
+                    17.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    10.0,
+                    1.0,
+                    9.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "10.222"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.11,
+                    18.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.685"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    13.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.750"
+            },
+            "HG": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "16.667"
+            }
+        }
+    },
+    {
+        "CODE": "BAF013",
+        "Numero": "ML09RDS",
+        "Nom": "Diallo",
+        "Prenom": "Alioune",
+        "Date_de_naissance": "08/07/1993",
+        "Classe": "4eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    9.0,
+                    7.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "10.000"
+            },
+            "Francais": {
+                "note_devoir": [
+                    11.0,
+                    13.0,
+                    19.0
+                ],
+                "note_examen": "4",
+                "Moyenne": "7.444"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.11,
+                    10.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.685"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    13.0,
+                    7.0,
+                    15.0,
+                    16.0
+                ],
+                "note_examen": "2",
+                "Moyenne": "5.583"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.333"
+            }
+        }
+    },
+    {
+        "CODE": "BAF013",
+        "Numero": "NBV76RD",
+        "Nom": "Gueye",
+        "Prenom": "Abdalah",
+        "Date_de_naissance": "01/01/1992",
+        "Classe": "4eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    17.0
+                ],
+                "note_examen": "0",
+                "Moyenne": "4.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    12.0,
+                    17.0,
+                    12.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.556"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.15,
+                    19.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.358"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "16.333"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    8.0,
+                    12.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.583"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "15.333"
+            }
+        }
+    },
+    {
+        "CODE": "BAF013",
+        "Numero": "NB675DH",
+        "Nom": "Dia",
+        "Prenom": "Hawa",
+        "Date_de_naissance": "07/07/1997",
+        "Classe": "5eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    15.0,
+                    12.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.167"
+            },
+            "Francais": {
+                "note_devoir": [
+                    13.0,
+                    16.0,
+                    19.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "18.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.13,
+                    18.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.022"
+            },
+            "PC": {
+                "note_devoir": [
+                    12.0
+                ],
+                "note_examen": "19",
+                "Moyenne": "16.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    2.0,
+                    9.0,
+                    17.0,
+                    11.0
+                ],
+                "note_examen": "2",
+                "Moyenne": "4.583"
+            },
+            "HG": {
+                "note_devoir": [
+                    1.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "10.333"
+            }
+        }
+    },
+    {
+        "CODE": "BAF013",
+        "Numero": "MLHF65D",
+        "Nom": "Guissé",
+        "Prenom": "Penda",
+        "Date_de_naissance": "04/04/1994",
+        "Classe": "3eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    8.0,
+                    7.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "9.167"
+            },
+            "Francais": {
+                "note_devoir": [
+                    15.0,
+                    12.0,
+                    9.0
+                ],
+                "note_examen": "14",
+                "Moyenne": "13.333"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.15,
+                    19.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.358"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    2.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "18",
+                "Moyenne": "15.333"
+            }
+        }
+    },
+    {
+        "CODE": "BMP019",
+        "Numero": "IHFK34G",
+        "Nom": "DIOUM",
+        "Prenom": "Harry",
+        "Date_de_naissance": "14/01/1995",
+        "Classe": "5eme A",
+        "Note": {
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    19.0,
+                    1.0
+                ],
+                "note_examen": "04",
+                "Moyenne": "6.222"
+            },
+            "HG": {
+                "note_devoir": [
+                    15.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "12.333"
+            },
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    18.0,
+                    11.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "11.500"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    17.5
+                ],
+                "note_examen": "15",
+                "Moyenne": "15.833"
+            },
+            "PC": {
+                "note_devoir": [
+                    3.0,
+                    15.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.000"
+            }
+        }
+    },
+    {
+        "CODE": "BMP019",
+        "Numero": "3FR5IJ9",
+        "Nom": "DIALLO",
+        "Prenom": "Hermione",
+        "Date_de_naissance": "12/08/2006",
+        "Classe": "4eme B",
+        "Note": {
+            "SVT": {
+                "note_devoir": [
+                    15.0,
+                    11.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.111"
+            },
+            "HG": {
+                "note_devoir": [
+                    6.0,
+                    14.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.000"
+            },
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    12.19,
+                    11.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.354"
+            },
+            "Francais": {
+                "note_devoir": [
+                    18.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.833"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    8.15
+                ],
+                "note_examen": "15",
+                "Moyenne": "12.717"
+            },
+            "PC": {
+                "note_devoir": [
+                    7.0,
+                    11.0,
+                    9.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.000"
+            }
+        }
+    },
+    {
+        "CODE": "BMP019",
+        "Numero": "PM12NG7",
+        "Nom": "DIOP",
+        "Prenom": "Marième",
+        "Date_de_naissance": "19/08/1997",
+        "Classe": "3eme A",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    15.0,
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "10.333"
+            },
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    4.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.167"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.8
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.600"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.333"
+            }
+        }
+    },
+    {
+        "CODE": "BMP019",
+        "Numero": "89HY6F5",
+        "Nom": "DIALLO",
+        "Prenom": "Ronald",
+        "Date_de_naissance": "09/05/2000",
+        "Classe": "6eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    14.5
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.750"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "Francais": {
+                "note_devoir": [
+                    4.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.167"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.5
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.500"
+            }
+        }
+    },
+    {
+        "CODE": "BMP019",
+        "Numero": "5D7BKJ2",
+        "Nom": "FALL",
+        "Prenom": "Magui",
+        "Date_de_naissance": "30/08/2008",
+        "Classe": "3eme B",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    11.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.500"
+            },
+            "Francais": {
+                "note_devoir": [
+                    7.0,
+                    12.0,
+                    8.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "11.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.5,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.750"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.000"
+            }
+        }
+    },
+    {
+        "CODE": "BMP019",
+        "Numero": "PK0I89K",
+        "Nom": "CAMARA",
+        "Prenom": "Rachid",
+        "Date_de_naissance": "15/02/2001",
+        "Classe": "6eme A",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "Math": {
+                "note_devoir": [
+                    12.0,
+                    14.5,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.833"
+            },
+            "Francais": {
+                "note_devoir": [
+                    14.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.833"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.8
+                ],
+                "note_examen": "5",
+                "Moyenne": "7.933"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    9.0,
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.333"
+            }
+        }
+    },
+    {
+        "CODE": "BMP019",
+        "Numero": "9F6J9TT",
+        "Nom": "POUYE",
+        "Prenom": "Ousseynou",
+        "Date_de_naissance": "02/12/1985",
+        "Classe": "4eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    14.5,
+                    11.0,
+                    15.0
+                ],
+                "note_examen": "17",
+                "Moyenne": "15.542"
+            },
+            "PC": {
+                "note_devoir": [
+                    11.0,
+                    16.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "15.167"
+            },
+            "Francais": {
+                "note_devoir": [
+                    16.0,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.167"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    3.0,
+                    17.0,
+                    18.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.167"
+            },
+            "HG": {
+                "note_devoir": [
+                    14.0,
+                    12.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.667"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    13.5
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.500"
+            }
+        }
+    },
+    {
+        "CODE": "BMP019",
+        "Numero": "6G6F9F1",
+        "Nom": "DEME",
+        "Prenom": "Mahi",
+        "Date_de_naissance": "27/10/1993",
+        "Classe": "3eme B",
+        "Note": {
+            "PC": {
+                "note_devoir": [
+                    11.0,
+                    11.0
+                ],
+                "note_examen": "9",
+                "Moyenne": "9.667"
+            },
+            "Math": {
+                "note_devoir": [
+                    14.15,
+                    11.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.858"
+            },
+            "Francais": {
+                "note_devoir": [
+                    14.0,
+                    12.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "13.000"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    12.8
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.267"
+            },
+            "SVT": {
+                "note_devoir": [
+                    10.0,
+                    9.0,
+                    16.0,
+                    13.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "12.000"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "16",
+                "Moyenne": "14.000"
+            }
+        }
+    },
+    {
+        "CODE": "BMP019",
+        "Numero": "BH54JJ6",
+        "Nom": "DUBOIS",
+        "Prenom": "Bachir",
+        "Date_de_naissance": "15/09/1994",
+        "Classe": "5eme A",
+        "Note": {
+            "Math": {
+                "note_devoir": [
+                    10.0,
+                    15.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "14.167"
+            },
+            "Francais": {
+                "note_devoir": [
+                    17.0,
+                    9.0,
+                    8.0
+                ],
+                "note_examen": "13",
+                "Moyenne": "12.444"
+            },
+            "Anglais": {
+                "note_devoir": [
+                    10.5,
+                    9.0
+                ],
+                "note_examen": "15",
+                "Moyenne": "13.250"
+            },
+            "PC": {
+                "note_devoir": [
+                    10.0,
+                    13.0
+                ],
+                "note_examen": "11",
+                "Moyenne": "11.167"
+            },
+            "SVT": {
+                "note_devoir": [
+                    12.0,
+                    11.0,
+                    16.0,
+                    8.0
+                ],
+                "note_examen": "12",
+                "Moyenne": "11.917"
+            },
+            "HG": {
+                "note_devoir": [
+                    10.0
+                ],
+                "note_examen": "10",
+                "Moyenne": "10.000"
+            }
+        }
+    }
+]
