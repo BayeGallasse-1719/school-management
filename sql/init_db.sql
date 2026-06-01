@@ -5,6 +5,7 @@ CREATE DATABASE GestionEcole;
 CREATE TABLE Etudiants(
     id_etudiant SERIAL NOT NULL PRIMARY KEY,
     numero VARCHAR(7) NOT NULL UNIQUE,
+    nom VARCHAR(100) NOT NULL,
     prenom VARCHAR(100) NOT NULL,
     date_naissance DATE NOT NULL,
     user_at INTEGER NOT NULL,
@@ -18,7 +19,7 @@ CREATE TABLE Etudiants(
 
 CREATE TABLE Matieres(
     id_matiere SERIAL NOT NULL PRIMARY KEY,
-    nom_matiere VARCHAR(100) NOT NULL,
+    nom_matiere VARCHAR(100) NOT NULL UNIQUE,
     create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     update_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -36,7 +37,7 @@ CREATE TABLE NoteDevoirs(
 
 CREATE TABLE Classes(
     id_classe SERIAL NOT NULL PRIMARY KEY,
-    nom_classe VARCHAR(100) NOT NULL,
+    nom_classe VARCHAR(100) NOT NULL UNIQUE,
     create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     update_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -71,6 +72,5 @@ ADD FOREIGN KEY(etudiant) REFERENCES Etudiants(id_etudiant);
 ALTER TABLE NoteExamens
 ADD FOREIGN KEY(matiere) REFERENCES Matieres(id_matiere),
 ADD FOREIGN KEY(etudiant) REFERENCES Etudiants(id_etudiant);
-
 
 

@@ -1,6 +1,4 @@
 from database import connexion
-from classe import afficher_classe
-from utilisateurs import afficher_users
 
 ## creer une connexionn
 conn = connexion()
@@ -10,18 +8,50 @@ cursor = conn.cursor()
 def ajouter_etudiant(nom, prenom, numero, date_naissance, user, classe, source):
     """Fonction pour ajouter un etudiant"""
     querry = """ INSERT INTO Etudiants(numero, nom, prenom, date_naissance, user_at, classe, source)
-        (%s, %s, %s, %s, %s, %s, %s)
-        RETURNING numero, nom, prenom, date_naissance, user_at, classe, source;
+        VALUES (%s, %s, %s, %s, %s, %s, %s)
+        RETURNING id_etudiant;
     """
     cursor.execute(querry, (numero, nom, prenom, date_naissance, user, classe, source))
-    etudiant = cursor.fetchone()
+    id = cursor.fetchone()[0]
+    conn.commit()
+    return id
+
+## rechercher etudiant par numero
+def get_etudiant_by_numero(numero: str):
+    """afficher etudiant par son numero"""
+    try:
+        querry = """SELECT numero, nom, prenom, date_naissance, user_at, classe, source, archive
+            FROM etudiants WHERE numero = %s;"""
+        cursor.execute(querry, (numero,))
+        etudiant = cursor.fetchone()  
+    except:
+        etudiant = None
     return etudiant
 
 ## afficher etudiants
 def afficher_etudiant():
     """Afficher tout les etudiants"""
-    querry = "SELECT numero, nom, prenom, date_naissance, user_at, classe, source FROM etudiants;"
+    querry = "SELECT numero, nom, prenom, date_naissance, user_at, classe, source, archive FROM etudiants;"
     cursor.execute(querry)
     etudiant = cursor.fetchall()
     return etudiant
 
+def update_etudiant(numero, nom=None, prenom=None, date_naissance=None, user=None, classe=None, source=None):
+    """Modifier les infos d'un etudiants"""
+    """if nom:
+        cursor.execute("UPDATE etudiants SET nom = %s WHERE numero = %s;",(nom, numero)) 
+    if prenom:
+        cursor.execute("UPDATE etudiants SET prenom = %s WHERE numero = %s;"(prenom, numero)) 
+    if date_naissance:
+        cursor.execute("UPDATE etudiants SET date_naissance = %s WHERE numero = %s;",(date_naissance, numero))
+    if user:
+        cursor.execute("UPDATE etudiants SET user = %s WHERE numero = %s;", (user, numero))
+    if classe:
+        cursor.execute("UPDATE etudiants SET classe = %s WHERE numero = %s;", (classe, numero))
+    if source:
+        cursor.execute("UPDATE etudiants SET source = %s WHERE numero = %s;", (source, numero))"""
+    
+    cursor.execute("""UPDATE etudiants SET nom=%s, prenom=%s, date_naissance=%s, user_at=%s, classe=%s, source=%s
+                   WHERE numero=%s;""",(nom, prenom, date_naissance, user, classe, source, numero))
+
+    

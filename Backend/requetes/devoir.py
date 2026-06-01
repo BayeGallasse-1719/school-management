@@ -8,6 +8,7 @@ cursor = conn.cursor()
 def ajouter_devoir(note, matiere, etudiant):
     """ajouter une note de devoir""" 
     cursor.execute("""INSERT INTO NoteDevoirs(note_devoir, matiere, etudiant) 
-            (%s, %s, %s);""",(note, matiere, etudiant))
+            VALUES (%s, %s, %s);""",(note, matiere, etudiant))
+    conn.commit()
     
     
