@@ -5,7 +5,7 @@ def connexion():
         return psycopg2.connect(
             database = 'gestionecole',
             user = 'postgres',
-            password = '',
+            password = 'VIRTU@LSID',
             host = 'localhost',
             port = 5432
         )
