@@ -25,4 +25,9 @@ def get_user_by_code(code: str):
         id = None
     return id
 
+def get_user_by_id(id:int):
+    """afficher l'utilisateur par son id"""
+    cursor.execute("SELECT code FROM Utilisateurs WHERE id_code = %s;", (id,))
+    code = cursor.fetchone()[0]
+    return code
     

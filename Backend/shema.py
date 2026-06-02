@@ -11,11 +11,20 @@ class Etudiant(BaseModel):
     nom: str = Field(..., min_length=2, max_length=100)
     prenom: str = Field(..., min_length=2, max_length=100)
     date_naissance: date
+    user_at: str
+    classe: str
+    source: str = Field(default="DB", max_length=10)
+    archive: bool = Field(default=False)
+
+class CreateEtudiant(BaseModel):
+    numero: str = Field(..., max_length=7, pattern=r'^[A-Z0-9]{7}$')
+    nom: str = Field(..., min_length=2, max_length=100)
+    prenom: str = Field(..., min_length=2, max_length=100)
+    date_naissance: date
     user_at: int
     classe: int
     source: str = Field(default="DB", max_length=10)
     archive: bool = Field(default=False)
-    
 
 class UpdateEtudiant(BaseModel):
     #numero: Optional[str] = Field(None, max_length=7)
@@ -33,10 +42,10 @@ class EtudiantResponse(BaseModel):
     nom: str
     prenom: str
     date_naissance: date
-    user_at: int
-    classe: int
+    user_at: str 
+    classe: str
     source: str
-    archive: bool
+
 
 
 #----------------------------------------------------------------------------------------------------------------------------

@@ -1,4 +1,7 @@
 from database import connexion
+from .classe import get_classe_by_nom, ajouter_classe
+from .utilisateurs import get_user_by_code, ajouter_user
+from fastapi import HTTPException
 
 ## creer une connexionn
 conn = connexion()
@@ -7,20 +10,25 @@ cursor = conn.cursor()
 ## inserer etudiant
 def ajouter_etudiant(nom, prenom, numero, date_naissance, user, classe, source):
     """Fonction pour ajouter un etudiant"""
-    querry = """ INSERT INTO Etudiants(numero, nom, prenom, date_naissance, user_at, classe, source)
-        VALUES (%s, %s, %s, %s, %s, %s, %s)
-        RETURNING id_etudiant;
-    """
-    cursor.execute(querry, (numero, nom, prenom, date_naissance, user, classe, source))
-    id = cursor.fetchone()[0]
-    conn.commit()
-    return id
+
+    query = """INSERT INTO etudiants (numero, nom, prenom, date_naissance, user_at, classe, source)
+               VALUES (%s, %s, %s, %s, %s, %s, %s)
+               RETURNING id_etudiant;"""
+    try:
+        cursor.execute(query, (numero, nom, prenom, date_naissance, user, classe, source))
+        id = cursor.fetchone()[0]
+        conn.commit()
+        return id
+    except Exception as e:
+        conn.rollback()
+        raise HTTPException(status_code=500, detail=f"Erreur SQL: {e}")
+
 
 ## rechercher etudiant par numero
 def get_etudiant_by_numero(numero: str):
     """afficher etudiant par son numero"""
     try:
-        querry = """SELECT numero, nom, prenom, date_naissance, user_at, classe, source, archive
+        querry = """SELECT numero, nom, prenom, date_naissance, user_at, classe, source
             FROM etudiants WHERE numero = %s;"""
         cursor.execute(querry, (numero,))
         etudiant = cursor.fetchone()  
@@ -31,9 +39,14 @@ def get_etudiant_by_numero(numero: str):
 ## afficher etudiants
 def afficher_etudiant():
     """Afficher tout les etudiants"""
-    querry = "SELECT numero, nom, prenom, date_naissance, user_at, classe, source, archive FROM etudiants;"
-    cursor.execute(querry)
-    etudiant = cursor.fetchall()
+    querry = """SELECT numero, nom, prenom, date_naissance, user_at, classe, source 
+        FROM etudiants ;"""
+    try:
+        cursor.execute(querry)
+        etudiant = cursor.fetchall()
+        conn.commit()
+    except:
+        conn.rollback()
     return etudiant
 
 def update_etudiant(numero, nom=None, prenom=None, date_naissance=None, user=None, classe=None, source=None):

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
@@ -9,10 +9,11 @@
 </head>
 <body>
     <h1>Gestion de l'ecole</h1>
-    <button id="datajson">Charger les donnees JSON</button>
-    <table>
+     <!-- Bouton pour afficher le formulaire -->
+    <button id="btnAfficher">+ Ajouter</button>
+    <table id="tableauPrincipal">
       <tr>
-          <td></td>
+          <td>#</td>
           <td>Numero</td>
           <td>Nom</td>
           <td>Prénom</td>
@@ -20,14 +21,48 @@
           <td>Classe</td>
           <td>Utilisateur</td>
           <td>Source</td>
-          <td>Archive</td>
           <td>Actions</td>
       </tr>
       <tbody id="tableauData">
-        <tr>
-            <td colspan="12">Chargement des donnees ...</td>
-        </tr>
+        <!-- afficher le tableau des donnees -->
       </tbody>
     </table>
+    <div>
+        <button class="pagination" id="btnPrecedent">Precedent</button>
+        <button class="pagination" id="btnSuivant">Suivant</button>
+    </div>
+
+
+  <!-- Formulaire caché -->
+  <form id="formEtudiant">
+    <label for="numero">Numéro (7 caractères majuscules/chiffres)</label>
+    <input type="text" id="numero" name="numero" maxlength="7" pattern="^[A-Z0-9]{7}$" required>
+
+    <label for="nom">Nom</label>
+    <input type="text" id="nom" name="nom" minlength="2" maxlength="100" required>
+
+    <label for="prenom">Prénom</label>
+    <input type="text" id="prenom" name="prenom" minlength="2" maxlength="100" required>
+    <label for="date_naissance">Date de naissance</label>
+    <input type="date" id="date_naissance" name="date_naissance" required>
+
+    <label for="user_at">Utilisateur(CODE)</label>
+    <input type="text" id="user_at" name="user_at" required>
+
+    <label for="classe">Classe</label>
+    <input type="text" id="classe" name="classe" required>
+
+    <label for="source">Source</label>
+    <input type="text" id="source" name="source" maxlength="10" value="DB" required>
+
+    <label for="archive">Archiver</label>
+    <select id="archive" name="archive">
+      <option value="false" selected>Non</option>
+      <option value="true">Oui</option>
+    </select>
+
+    <button type="submit">Ajouter Etudiant</button>
+  </form>
+
 </body>
 </html>

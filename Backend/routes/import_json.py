@@ -62,4 +62,4 @@ async def load_json():
                     ## ajouter les devoirs de chaque matiere
                     devoir.ajouter_devoir(note=n, etudiant=id_etudiant, matiere=id_matiere)
 
-    return {}
+    
