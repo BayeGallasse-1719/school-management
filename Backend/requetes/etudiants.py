@@ -49,22 +49,28 @@ def afficher_etudiant():
         conn.rollback()
     return etudiant
 
-def update_etudiant(numero, nom=None, prenom=None, date_naissance=None, user=None, classe=None, source=None):
+def update_etudiant(numero, nom=None, prenom=None, date_naissance=None, user=None, classe=None, archive = None):
     """Modifier les infos d'un etudiants"""
-    """if nom:
-        cursor.execute("UPDATE etudiants SET nom = %s WHERE numero = %s;",(nom, numero)) 
-    if prenom:
-        cursor.execute("UPDATE etudiants SET prenom = %s WHERE numero = %s;"(prenom, numero)) 
-    if date_naissance:
-        cursor.execute("UPDATE etudiants SET date_naissance = %s WHERE numero = %s;",(date_naissance, numero))
-    if user:
-        cursor.execute("UPDATE etudiants SET user = %s WHERE numero = %s;", (user, numero))
-    if classe:
-        cursor.execute("UPDATE etudiants SET classe = %s WHERE numero = %s;", (classe, numero))
-    if source:
-        cursor.execute("UPDATE etudiants SET source = %s WHERE numero = %s;", (source, numero))"""
+    try:
+        if nom:
+            cursor.execute("UPDATE etudiants SET nom = %s, update_at = DEFAULT, source=DEFAULT WHERE numero = %s;",(nom, numero)) 
+        if prenom:
+            cursor.execute("UPDATE etudiants SET prenom = %s, update_at = DEFAULT, source=DEFAULT WHERE numero = %s;",(prenom, numero)) 
+        if date_naissance:
+            cursor.execute("UPDATE etudiants SET date_naissance = %s, update_at = DEFAULT, source=DEFAULT WHERE numero = %s;",(date_naissance, numero))
+        if user:
+            cursor.execute("UPDATE etudiants SET user_at = %s, update_at = DEFAULT, source=DEFAULT WHERE numero = %s;", (user, numero))
+        if classe:
+            cursor.execute("UPDATE etudiants SET classe = %s, update_at = DEFAULT, source=DEFAULT WHERE numero = %s;", (classe, numero))
+        if archive:
+            cursor.execute("UPDATE etudiants SET archive = %s, update_at = DEFAULT, source=DEFAULT WHERE numero = %s;", (archive, numero))
+        conn.commit()
+    except Exception as e:
+        conn.rollback()
+        raise HTTPException(status_code=500, detail=f"Erreur SQL: {e}")
+
+        
     
-    cursor.execute("""UPDATE etudiants SET nom=%s, prenom=%s, date_naissance=%s, user_at=%s, classe=%s, source=%s
-                   WHERE numero=%s;""",(nom, prenom, date_naissance, user, classe, source, numero))
+    
 
     

@@ -31,10 +31,9 @@ class UpdateEtudiant(BaseModel):
     nom: Optional[str] = Field(None, min_length=2, max_length=100)
     prenom: Optional[str] = Field(None, min_length=2, max_length=100)
     date_naissance: Optional[date] = None
-    user_at: Optional[int] = None
-    classe: Optional[int] = None
-    source: Optional[str] = None
-    #archive: Optional[bool] = None
+    user_at: Optional[str] = None
+    classe: Optional[str] = None
+    archive: Optional[bool] = None
     update_etudiant: Optional[bool] = None
 
 class EtudiantResponse(BaseModel):

@@ -63,6 +63,8 @@ function afficherEtudiant(etudiants){
     action.appendChild(buttonArchiver);
     
   });
+  // activer la modification
+  modif_cellule();
 }
 
 // afficher les details d'un etudiant dans la page
@@ -94,6 +96,42 @@ function recupEtudiant(){
     archive: formEtudiant.archive.value === "true"
   }
   ajouterEtudiant(data);
+}
+
+
+function modif_cellule() {
+  for (let i = 0; i < tableData.rows.length; i++) {
+    const row = tableData.rows[i];
+    // ignorer index (0) et actions (dernière)
+    for (let j = 2; j < row.cells.length - 2; j++) {
+      
+      // recuperer le numero de l'etudiant
+      const numero = row.cells[1].textContent; 
+      row.cells[j].addEventListener("dblclick", () => {
+        row.cells[j].contentEditable = true;
+        row.cells[j].style.backgroundColor = "#2c8ee4";
+
+        // sauvegarde quand on appuie sur Entrée
+        row.cells[j].addEventListener("keydown", (e) => {
+          if (e.key === "Enter") {
+            e.preventDefault();
+            row.cells[j].contentEditable = false;
+            row.cells[j].style.backgroundColor = "";
+
+            const updatedData = {};
+            // construire l'objet avec toutes les colonnes modifiées
+            updatedData.nom = row.cells[2].textContent;
+            updatedData.prenom = row.cells[3].textContent;
+            updatedData.date_naissance = row.cells[4].textContent;
+            updatedData.user_at = row.cells[5].textContent;
+            updatedData.classe = row.cells[6].textContent;
+
+            update(numero, updatedData);
+          }
+        });
+      });
+    }
+  }
 }
 
 
@@ -153,6 +191,22 @@ async function ajouterEtudiant(data) {
     }
   } catch(erreur){
     console.error("Erreur :", erreur);
+  }
+}
+
+// mettre a jour les infos d'un etudiant
+async function update(numero, data) {
+  const reponse = await fetch(`${API_BASE}/etudiants/${numero}`, {
+    method: "PATCH",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data)
+  });
+  if (reponse.ok) {
+    alert("Étudiant mis à jour !");
+    getEtudiants(); // recharger la liste
+  } else {
+    const err = await reponse.json();
+    console.log("Erreur : " + JSON.stringify(err));
   }
 }
 

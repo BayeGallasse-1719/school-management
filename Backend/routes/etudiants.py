@@ -50,9 +50,20 @@ async def post_etudiant(etudiant: Etudiant):
     
     
 @router.patch('/api/v1/etudiants/{numero}', tags=['Etudiant'])
-async def update_etudiant(numero, etudiant: UpdateEtudiant):
+async def update_etudiant(numero: str, etudiant: UpdateEtudiant):
     """modifier les attributs d'un etudiant"""
+    verif_numero = etudiants.get_etudiant_by_numero(numero)
+    if not verif_numero:
+        raise HTTPException(status_code=404, detail="student Not Found !")
+    
+    id_classe = classe.get_classe_by_nom(classe=etudiant.classe)
+    if id_classe is None:
+        raise HTTPException(status_code=400, detail="Classe inexistante")
+
+    id_user = utilisateurs.get_user_by_code(code=etudiant.user_at)
+    if id_user is None:
+        raise HTTPException(status_code=400, detail="Utilisateur inexistant")
+    
     etudiants.update_etudiant(numero=numero, nom=etudiant.nom, prenom=etudiant.prenom, 
-                              date_naissance=etudiant.date_naissance,
-                              user=etudiant.user_at, classe=etudiant.classe, source=etudiant.source)
+                date_naissance=etudiant.date_naissance, user=id_user[0], classe=id_classe[0])
     
