@@ -7,15 +7,25 @@ const charger = document.querySelector('#datajson');
 const tablePrincipal = document.querySelector('#tableauPrincipal');
 const formEtudiant = document.getElementById('formEtudiant');
 const btnAfficher = document.getElementById('btnAfficher');
-    
+const formNote = document.getElementById('formNote')
 
-btnAfficher.addEventListener('click', () => {    
-  // toggle affichage
+// au départ, cacher le formulaire
+formEtudiant.style.display = "none";
+
+btnAfficher.addEventListener('click', () => {
   if (formEtudiant.style.display === "none") {
+    // cacher la liste
+    tableauPrincipal.style.display = "none";
+
+    // afficher le formulaire
     formEtudiant.style.display = "block";
-    btnAfficher.textContent = "Annuler";
+    btnAfficher.textContent = "← Retour à la liste";
   } else {
+    // cacher le formulaire
     formEtudiant.style.display = "none";
+
+    // réafficher la liste
+    tableauPrincipal.style.display = "table";
     btnAfficher.textContent = "+ Ajouter";
   }
 });
@@ -68,19 +78,75 @@ function afficherEtudiant(etudiants){
 }
 
 // afficher les details d'un etudiant dans la page
-function afficherEtudiantParNumero(etudiant){
-  tablePrincipal.innerHTML = `
-    <div style="border:1px solid #ccc; border-radius:6px; padding:15px; background:#fff; max-width:400px;">
-      <h3 style="margin-bottom:10px; font-size:18px; color:#333;">Informations Personnelles</h3>
-      <p><strong>Numéro :</strong> ${etudiant.numero || '-'}</p>
-      <p><strong>Nom :</strong> ${etudiant.nom || '-'}</p>
-      <p><strong>Prénom :</strong> ${etudiant.prenom || '-'}</p>
-      <p><strong>Date naissance :</strong> ${etudiant.date_naissance || '-'}</p>
-      <p><strong>Utilisateur :</strong> ${etudiant.user_at || '-'}</p>
-      <p><strong>Classe :</strong> ${etudiant.classe || '-'}</p>
-      <p><strong>Source :</strong> ${etudiant.source || '-'}</p>
-    </div>
+function afficherEtudiantParNumero(etudiant) {
+  // cacher la liste principale
+  document.getElementById("tableauPrincipal").style.display = "none";
+  btnAfficher.style.display = "none";
+  // afficher le bloc caché
+  const detailDiv = document.getElementById("detailEtudiant");
+  detailDiv.style.display = "block";
+
+  // infos personnelles
+  document.getElementById("infosEtudiant").innerHTML = `
+    <p><strong>Numéro :</strong> ${etudiant.numero}</p>
+    <p><strong>Nom :</strong> ${etudiant.nom}</p>
+    <p><strong>Prénom :</strong> ${etudiant.prenom}</p>
+    <p><strong>Date naissance :</strong> ${etudiant.date_naissance}</p>
+    <p><strong>Utilisateur :</strong> ${etudiant.user_at}</p>
+    <p><strong>Classe :</strong> ${etudiant.classe}</p>
+    <p><strong>Source :</strong> ${etudiant.source}</p>
   `;
+  
+  // notes
+  const notesBody = document.getElementById("notesData");
+  notesBody.innerHTML = "";
+  const compteurDevoirs = {};
+
+  if (etudiant.notes && etudiant.notes.length > 0) {
+    etudiant.notes.forEach(note => {
+      const matiere = note.matiere;
+      if (!compteurDevoirs[matiere]) {
+        compteurDevoirs[matiere] = 1;
+      } else {
+        compteurDevoirs[matiere]++;
+      }
+      const numeroDevoir = compteurDevoirs[matiere];
+
+      notesBody.innerHTML += `
+        <tr>
+          <td style="border:1px solid #ccc; padding:8px;">${matiere}</td>
+          <td style="border:1px solid #ccc; padding:8px;">Devoir ${numeroDevoir}</td>
+          <td style="border:1px solid #ccc; padding:8px;">${note.note}</td>
+        </tr>
+      `;
+    });
+  } else {
+    notesBody.innerHTML = `<tr><td colspan="3" style="text-align:center; color:#888;">Aucune note disponible</td></tr>`;
+  }
+
+  // bouton retour
+  if (!document.getElementById("btnRetour")) {
+    const btnRetour = document.createElement("button");
+    btnRetour.id = "btnRetour";
+    btnRetour.textContent = "← Retour à la liste";
+    btnRetour.style.marginTop = "15px";
+    btnRetour.onclick = () => {
+      detailDiv.style.display = "none";
+      document.getElementById("tableauPrincipal").style.display = "table";
+    };
+    detailDiv.appendChild(btnRetour);
+  }
+  const data = {
+    matiere: formNote.matiere.value,
+    note: parseFloat(formNote.note.value)
+  }
+  // Soumission du formulaire
+  formNote.addEventListener('submit', (e) => {
+    // evite le refresh
+    e.preventDefault();
+    ajouterNote(data, etudiant.numero); 
+  });
+  
 }
 
 //recuperer les donnees du formulaire
@@ -98,18 +164,20 @@ function recupEtudiant(){
   ajouterEtudiant(data);
 }
 
-
+//modifier une cellule
 function modif_cellule() {
   for (let i = 0; i < tableData.rows.length; i++) {
     const row = tableData.rows[i];
     // ignorer index (0) et actions (dernière)
     for (let j = 2; j < row.cells.length - 2; j++) {
-      
+
       // recuperer le numero de l'etudiant
       const numero = row.cells[1].textContent; 
       row.cells[j].addEventListener("dblclick", () => {
         row.cells[j].contentEditable = true;
         row.cells[j].style.backgroundColor = "#2c8ee4";
+        //recuperer la valeur original
+        const orginalValeur = row.cells[j].textContent;
 
         // sauvegarde quand on appuie sur Entrée
         row.cells[j].addEventListener("keydown", (e) => {
@@ -127,6 +195,10 @@ function modif_cellule() {
             updatedData.classe = row.cells[6].textContent;
 
             update(numero, updatedData);
+          }  else if (e.key === "Escape") {
+            row.cells[j].contentEditable = false;
+            row.cells[j].style.backgroundColor = "";
+            row.cells[j].textContent = orginalValeur;
           }
         });
       });
@@ -203,11 +275,28 @@ async function update(numero, data) {
   });
   if (reponse.ok) {
     alert("Étudiant mis à jour !");
-    getEtudiants(); // recharger la liste
+    // recharger la liste
+    getEtudiants(); 
   } else {
     const err = await reponse.json();
     console.log("Erreur : " + JSON.stringify(err));
   }
+}
+
+//envoyer des notes et/ou matiere
+async function ajouterNote(data, numero) {
+  const reponse = await fetch(`${API_BASE}/etudiants/${numero}/notesDevoir`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data)
+  });
+  if (!reponse.ok) {
+    const err = await reponse.json();
+    alert("Erreur : " + JSON.stringify(err));
+  }else {
+    alert("Note enregistrée !");
+    // recharger les détails de l'étudiant pour voir la nouvelle note
+    getEtudiantByNumero(numero);}
 }
 
 

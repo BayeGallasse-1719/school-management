@@ -10,13 +10,13 @@ def ajouter_matiere(nom: str):
     cursor.execute("INSERT INTO Matieres(nom_matiere) VALUES (%s) RETURNING id_matiere;",(nom,))
     id = cursor.fetchone()
     conn.commit()
-    return id[0]
+    return id
 
 def get_matiere_by_nom(nom:str):
     """afficher matiere par son nom"""
     try:
-        cursor.execute("SELECT id_matiere, nom FROM Matieres WHERE nom_matiere = %s;",(nom,))
+        cursor.execute("SELECT id_matiere FROM Matieres WHERE nom_matiere = %s;",(nom,))
         id = cursor.fetchone()
+        return id
     except:
-        id = None
-    return id
+        conn.rollback()

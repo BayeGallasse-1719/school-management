@@ -10,5 +10,3 @@ def ajouter_devoir(note, matiere, etudiant):
     cursor.execute("""INSERT INTO NoteDevoirs(note_devoir, matiere, etudiant) 
             VALUES (%s, %s, %s);""",(note, matiere, etudiant))
     conn.commit()
-    
-    

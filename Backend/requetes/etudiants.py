@@ -28,7 +28,7 @@ def ajouter_etudiant(nom, prenom, numero, date_naissance, user, classe, source):
 def get_etudiant_by_numero(numero: str):
     """afficher etudiant par son numero"""
     try:
-        querry = """SELECT numero, nom, prenom, date_naissance, user_at, classe, source
+        querry = """SELECT id_etudiant, numero, nom, prenom, date_naissance, user_at, classe, source
             FROM etudiants WHERE numero = %s;"""
         cursor.execute(querry, (numero,))
         etudiant = cursor.fetchone()  
@@ -69,8 +69,19 @@ def update_etudiant(numero, nom=None, prenom=None, date_naissance=None, user=Non
         conn.rollback()
         raise HTTPException(status_code=500, detail=f"Erreur SQL: {e}")
 
-        
-    
+
+# recuperer les notes des devoirs
+def get_note_etudiant_by_numero(numero: str):
+    """Recuperer les notes des etudiants et leurs matieres d'un etudiant"""
+    querry = """SELECT M.nom_matiere, N.note_devoir
+            FROM NoteDevoirs N
+            JOIN Matieres M ON N.matiere = M.id_matiere
+            JOIN Etudiants E ON E.id_etudiant = N.etudiant
+            WHERE E.numero = %s
+            ORDER BY M.nom_matiere;"""
+    cursor.execute(querry,(numero,))
+    notes = cursor.fetchall()
+    return notes
     
 
     

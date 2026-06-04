@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
 from datetime import date, datetime
-from typing import Optional
+from typing import Optional, List
 
 #----------------------------------------------------------------------------------------------------------------------------
 ##      Etudiants
@@ -64,6 +64,11 @@ class NoteDevoir(BaseModel):
     etudiant: int
     update_note: bool = Field(default=False)
 
+
+class NoteResponse(BaseModel):
+    matiere: str    
+    note: float
+
 class UpdateNoteDevoir(BaseModel):
     note_devoir: Optional[float] = Field(None, ge=0, le=20)
     matiere: Optional[int] = None
@@ -97,3 +102,17 @@ class UpdateNoteExamen(BaseModel):
 
 class Utilisateur(BaseModel):
     code: str = Field(..., min_length=2, max_length=6, pattern=r'^[A-Z]{3}[0-9]{3}$')
+
+#----------------------------------------------------------------------------------------------------------------------------
+##      Detail etudiant
+#-----------------------------------------------------------------------------------------------------------------------------
+
+class EtudiantDetailResponse(BaseModel):
+    numero: str
+    nom: str
+    prenom: str
+    date_naissance: date
+    user_at: str
+    classe: str
+    source: Optional[str] = None
+    notes: List[NoteResponse] = []

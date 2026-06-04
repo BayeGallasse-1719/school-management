@@ -27,10 +27,10 @@
         <!-- afficher le tableau des donnees -->
       </tbody>
     </table>
-    <div>
+    <!-- <div>
         <button class="pagination" id="btnPrecedent">Precedent</button>
         <button class="pagination" id="btnSuivant">Suivant</button>
-    </div>
+    </div> -->
 
 
   <!-- Formulaire caché -->
@@ -47,7 +47,7 @@
     <input type="date" id="date_naissance" name="date_naissance" required>
 
     <label for="user_at">Utilisateur(CODE)</label>
-    <input type="text" id="user_at" name="user_at" required>
+    <input type="text" id="user_at" name="user_at" maxlength="6" pattern="^[A-Z]{3}[0-9]{3}$" required>
 
     <label for="classe">Classe</label>
     <input type="text" id="classe" name="classe" required>
@@ -63,6 +63,36 @@
 
     <button type="submit">Ajouter Etudiant</button>
   </form>
+
+  <!-- Zone d’affichage du détail étudiant (cachée par défaut) -->
+<div id="detailEtudiant" style="display:none; margin-top:20px;">
+  <h2>Détails de l'étudiant</h2>
+  <div id="infosEtudiant"></div>
+
+  <h3>Notes</h3>
+  <table id="tableNotes" style="border-collapse:collapse; width:100%; margin-top:10px;">
+    <thead>
+      <tr style="background:#f0f0f0;">
+        <th style="border:1px solid #ccc; padding:8px;">Matière</th>
+        <th style="border:1px solid #ccc; padding:8px;">Devoir</th>
+        <th style="border:1px solid #ccc; padding:8px;">Note</th>
+      </tr>
+    </thead>
+    <tbody id="notesData">
+      <!-- injecté par JS -->
+    </tbody>
+  </table>
+
+  <h3>Ajouter une note</h3>
+  <form id="formNote">
+    <label>Matière :</label>
+    <input type="text" id="matiere" required>
+    <label>Note :</label>
+    <input type="number" id="note" step="0" required>
+    <button type="submit">Enregistrer</button>
+  </form>
+</div>
+
 
 </body>
 </html>
