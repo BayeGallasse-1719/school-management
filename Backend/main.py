@@ -1,41 +1,64 @@
+"""
+Application FastAPI - Gestion École
+Point d'entrée principal
+"""
 from fastapi import FastAPI
-from routes import import_json, etudiants
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+import os
 
-## instancier l'app fastapi
+from routes import etudiants, import_json, dashboard
+from database import test_connection
+
 app = FastAPI(
-    title='Gestion Ecole',
-    description="Application de Gestion d'ecole",
-    version='0.0.1'
+    title="Gestion École",
+    description="API complète de gestion d'école - Data Visualisation & CRUD",
+    version="1.0.0",
+    docs_url="/docs",
+    redoc_url="/redoc",
 )
 
-# configuration cors complete
+# CORS (développement)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:8000",
-        "http://127.0.0.1:8000",
-        "http://localhost:5500",
-        "http://127.0.0.1:5500",
-        "null",  # Pour les fichiers ouverts directement
-        "file://",  # Pour les protocoles file://
-        "*"  # En développement uniquement - accepte toutes les origines
-    ],
-    allow_credentials = True,
-    allow_methods = ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
-    allow_headers = ['*'],
-    expose_headers = ['*'],
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
-
-## route principal
-@app.get('/api/v1/health')
-async def health():
-    return {'welcome' : 'Gestion ecole'}
-
-## route chargement json
-app.include_router(import_json.router) 
-
-## get all student
+# Routes API
 app.include_router(etudiants.router)
-    
+app.include_router(import_json.router)
+app.include_router(dashboard.router)
+
+
+@app.get("/api/v1/health")
+async def health():
+    db_ok = test_connection()
+    return {
+        "status": "ok" if db_ok else "degraded",
+        "database": "connected" if db_ok else "disconnected",
+        "message": "Gestion École API",
+    }
+
+
+# Servir le frontend en production (optionnel)
+FRONTEND_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend")
+
+if os.path.isdir(FRONTEND_DIR):
+    app.mount("/static", StaticFiles(directory=FRONTEND_DIR), name="static")
+
+    @app.get("/")
+    async def serve_index():
+        return FileResponse(os.path.join(FRONTEND_DIR, "index.html"))
+
+    @app.get("/dashboard")
+    async def serve_dashboard():
+        return FileResponse(os.path.join(FRONTEND_DIR, "dashboard.html"))
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", port=8001, reload=True)

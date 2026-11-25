@@ -1,13 +1,18 @@
+"""Chargement du fichier JSON de données valides"""
 import json
 import os
 
-def chargement():
-    """chargement des donnees valides et retourne une liste de dictionnaire"""
-    BASE_DIRS = os.path.dirname(os.path.abspath(__file__))
-    ## le dossier ou se trouve le fichier
-    projet_dir = os.path.dirname(os.path.dirname(BASE_DIRS))
-    ## chemin du fichier
-    json_path = os.path.join(projet_dir, 'data', 'data_valides.json')
-    with open(json_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    return data
+
+def chargement() -> list:
+    """Retourne la liste des étudiants valides depuis data/data_valides.json"""
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    projet_dir = os.path.dirname(os.path.dirname(base_dir))
+    json_path = os.path.join(projet_dir, "data", "data_valides.json")
+
+    if not os.path.exists(json_path):
+        # fallback relatif
+        json_path = os.path.join(os.path.dirname(base_dir), "..", "data", "data_valides.json")
+        json_path = os.path.abspath(json_path)
+
+    with open(json_path, "r", encoding="utf-8") as f:
+        return json.load(f)
