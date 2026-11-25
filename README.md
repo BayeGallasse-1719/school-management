@@ -143,7 +143,7 @@ DB_PORT=5432
 
 🚀 Installation
 1. Cloner le projet
-git clone <url-du-repository>
+git clone <https://github.com/BayeGallasse-1719/school-management.git>
 cd Projet
 
 2. Créer l'environnement virtuel
